@@ -5,7 +5,13 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from collections import Counter
 import pandas as pd
 import scipy.stats
+import numpy as np
+
 from SEVAL.Tools import SpacyFuncs
+
+# ignore divide by zero
+np.seterr(divide='ignore', invalid='ignore')
+
 
 def text_2_list(corpus):
     # Get raw text as string.
@@ -13,7 +19,7 @@ def text_2_list(corpus):
         text = f.read()
         f.close()
 
-    sent_list = (SpacyFuncs.break_sentences(text)).split(",")
+    sent_list = str(SpacyFuncs.break_sentences(text)).split(",")
     documents = sent_list
 
     return documents

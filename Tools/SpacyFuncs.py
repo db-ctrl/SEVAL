@@ -17,6 +17,8 @@ def break_sentences(text):
 
     # Configure document nlp
     nlp = spacy.load("en_core_web_sm")
+    # max harry potter corpus length
+    nlp.max_length = 1523060
     doc = nlp(text)
     sentences = []
 

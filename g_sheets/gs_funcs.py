@@ -4,6 +4,7 @@ import textstat
 import time
 from oauth2client.service_account import ServiceAccountCredentials
 import gspread
+import math
 
 # use creds to create a client to interact with the Google Drive API
 scope = ['https://spreadsheets.google.com/feeds',
@@ -18,29 +19,29 @@ sheet = client.open("AutoSentenceEval").sheet1
 # TODO : Make function for each column of SEVAL
 
 
-def update_metrics(row,words_in_clus, entropy):
-
-    # Calculate & generate sentence word count
-    for i in range(len(sheet.col_values(1))):
-        if len(sheet.cell(row, 2).value.split()) == 0:
-            pass
+def update_metrics(row, words_in_clus, entropy):
+    # check if row empty
+    if len(sheet.cell(row, 2).value.split()) == 0:
+        pass
+    else:
+        # Update Word Count
+        sheet.update_cell(row, 6, (len(sheet.cell(row, 2).value.split()))),
+        time.sleep(1)
+        # Update Flesch Reading Ease
+        sheet.update_cell(row, 7, (textstat.flesch_reading_ease(sheet.cell(row, 2).value))),
+        time.sleep(1)
+        # Update Gunning Fog Index
+        sheet.update_cell(row, 8, (textstat.gunning_fog(sheet.cell(row, 2).value))),
+        time.sleep(1)
+        # Update words in cluster
+        sheet.update_cell(row, 9, str(words_in_clus) + "/" + str(len(sheet.cell(row, 2).value.split()))),
+        time.sleep(1)
+        # Update entropy
+        if math.isnan(entropy):
+            sheet.update_cell(row, 10, "N/A"),
         else:
-            # Update Word Count
-            sheet.update_cell(row, 6, (len(sheet.cell(row, 2).value.split()))),
-            time.sleep(1)
-            # Update Flesch Reading Ease
-            sheet.update_cell(row, 7, (textstat.flesch_reading_ease(sheet.cell(row, 2).value))),
-            time.sleep(1)
-            # Update Gunning Fog Index
-            sheet.update_cell(row, 8, (textstat.gunning_fog(sheet.cell(row, 2).value))),
-            time.sleep(1)
-            # Update words in cluster
-            sheet.update_cell(row, 9, str(words_in_clus) + "/" + str(len(sheet.cell(row, 2).value.split()))),
-            time.sleep(1)
-            # Update entropy
             sheet.update_cell(row, 10, entropy),
-            time.sleep(1)
-        row += 1
+        time.sleep(1)
 
 
 def get_word_count(row):
