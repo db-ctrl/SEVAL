@@ -1,2 +1,2 @@
 # SEVAL
-A sentence evalua`tor designed for RNN's &amp; analysis through Google Sheets.
+A sentence evaluator designed for RNN's & analysis through Google Sheets.
