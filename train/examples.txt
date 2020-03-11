@@ -2,24 +2,266 @@
 ----- Generating text after Epoch: 0
 ----- Diversity:0.3
 ----- Generating with seed:
-"said professor mcgonagall, turning at last to look umbridge directly"
-said professor mcgonagall, turning at last to look umbridge directly to was had was of the end the end the end the door the end
+"of his bed. harry scrambled into them. the blank"
+of his bed. harry scrambled into them. the blank at the that the few the great wand the door the of the looked the
+================================================================================
 ----- Diversity:0.4
 ----- Generating with seed:
-"professor mcgonagall, turning at last to look umbridge directly"
-professor mcgonagall, turning at last to look umbridge directly him the the wand the of the face the of the wand to the wand
+"of his bed. harry scrambled into them. the blank"
+of his bed. harry scrambled into them. the blank of the off his of the the wand his the great great floor he the
+================================================================================
 ----- Diversity:0.5
 ----- Generating with seed:
-"mcgonagall, turning at last to look umbridge directly"
-mcgonagall, turning at last to look umbridge directly in of the of the the the they the was the the in the and
+"of his bed. harry scrambled into them. the blank"
+of his bed. harry scrambled into them. the blank the good at to the time they he the few the year. a in the
+================================================================================
 ----- Diversity:0.6
 ----- Generating with seed:
-"turning at last to look umbridge directly"
-turning at last to look umbridge directly he it it an 
- that . 
- was no to to it he the
+"of his bed. harry scrambled into them. the blank"
+of his bed. harry scrambled into them. the blank a little they a other was and his were to he he in a finally,
+================================================================================
 ----- Diversity:0.7
 ----- Generating with seed:
-"at last to look umbridge directly"
-at last to look umbridge directly she's was a to - the spell to the a her. his and turn any
+"of his bed. harry scrambled into them. the blank"
+of his bed. harry scrambled into them. the blank of the the forest the though of his is together 
+ the didn't at the
+================================================================================
+
+----- Generating text after Epoch: 1
+----- Diversity:0.3
+----- Generating with seed:
+"i?' 
+ 'i - well, i -' mundungus looked"
+i?' 
+ 'i - well, i -' mundungus looked to of the of the of the and and a and his and the of
+================================================================================
+----- Diversity:0.4
+----- Generating with seed:
+"i?' 
+ 'i - well, i -' mundungus looked"
+i?' 
+ 'i - well, i -' mundungus looked to to of the had and the of he of the and on the and
+================================================================================
+----- Diversity:0.5
+----- Generating with seed:
+"i?' 
+ 'i - well, i -' mundungus looked"
+i?' 
+ 'i - well, i -' mundungus looked to that must and a of of dumbledore his with to the of of with
+================================================================================
+----- Diversity:0.6
+----- Generating with seed:
+"i?' 
+ 'i - well, i -' mundungus looked"
+i?' 
+ 'i - well, i -' mundungus looked to to isn't give his he on the were still harry that he his was
+================================================================================
+----- Diversity:0.7
+----- Generating with seed:
+"i?' 
+ 'i - well, i -' mundungus looked"
+i?' 
+ 'i - well, i -' mundungus looked of the have that your to and the coming to of the and was his
+================================================================================
+
+----- Generating text after Epoch: 2
+----- Diversity:0.3
+----- Generating with seed:
+"way these days . . . the week that"
+way these days . . . the week that a . . 
+ a of and to the and to the and to and
+================================================================================
+----- Diversity:0.4
+----- Generating with seed:
+"way these days . . . the week that"
+way these days . . . the week that the of . . 
+ the was in a and of of the and the
+================================================================================
+----- Diversity:0.5
+----- Generating with seed:
+"way these days . . . the week that"
+way these days . . . the week that if you to have to to in that the with a of and he had
+================================================================================
+----- Diversity:0.6
+----- Generating with seed:
+"way these days . . . the week that"
+way these days . . . the week that a have . . he a to as that the and it the of and
+================================================================================
+----- Diversity:0.7
+----- Generating with seed:
+"way these days . . . the week that"
+way these days . . . the week that we to . we whatever to to a more magic i'm all against in last
+================================================================================
+
+----- Generating text after Epoch: 3
+----- Diversity:0.3
+----- Generating with seed:
+"sideways look at him over the top of her"
+sideways look at him over the top of her and and his to the and to to the and at the of the and
+================================================================================
+----- Diversity:0.4
+----- Generating with seed:
+"sideways look at him over the top of her"
+sideways look at him over the top of her and as he to he to to and to down the and it to the
+================================================================================
+----- Diversity:0.5
+----- Generating with seed:
+"sideways look at him over the top of her"
+sideways look at him over the top of her and that he all in the and to a and of to and the and
+================================================================================
+----- Diversity:0.6
+----- Generating with seed:
+"sideways look at him over the top of her"
+sideways look at him over the top of her and over them all where his was at at 
+ the had of the anywhere
+================================================================================
+----- Diversity:0.7
+----- Generating with seed:
+"sideways look at him over the top of her"
+sideways look at him over the top of her dumbledore, and the weasley as him the for and in when which at and the
+================================================================================
+
+----- Generating text after Epoch: 4
+----- Diversity:0.3
+----- Generating with seed:
+"ron, it was very important that he tell him"
+ron, it was very important that he tell him the and that he to a to and to to and that he to to
+================================================================================
+----- Diversity:0.4
+----- Generating with seed:
+"ron, it was very important that he tell him"
+ron, it was very important that he tell him that was of the of he was at with that was the of of the
+================================================================================
+----- Diversity:0.5
+----- Generating with seed:
+"ron, it was very important that he tell him"
+ron, it was very important that he tell him the had in the and he up the was in and he a to in
+================================================================================
+----- Diversity:0.6
+----- Generating with seed:
+"ron, it was very important that he tell him"
+ron, it was very important that he tell him to the is that at the of the of that where it as he no
+================================================================================
+----- Diversity:0.7
+----- Generating with seed:
+"ron, it was very important that he tell him"
+ron, it was very important that he tell him christmas was a might ignore professor with of at the of and making on he
+================================================================================
+
+----- Generating text after Epoch: 5
+----- Diversity:0.3
+----- Generating with seed:
+"- i suppose we'll need another chair - i"
+- i suppose we'll need another chair - i - - - - - - - - - - - - - - -
+================================================================================
+----- Diversity:0.4
+----- Generating with seed:
+"- i suppose we'll need another chair - i"
+- i suppose we'll need another chair - i - - - - - - - - - - - - - - -
+================================================================================
+----- Diversity:0.5
+----- Generating with seed:
+"- i suppose we'll need another chair - i"
+- i suppose we'll need another chair - i - - - - - - - - - - - - - - -
+================================================================================
+----- Diversity:0.6
+----- Generating with seed:
+"- i suppose we'll need another chair - i"
+- i suppose we'll need another chair - i - - - he at - - - - - - - - - -
+================================================================================
+----- Diversity:0.7
+----- Generating with seed:
+"- i suppose we'll need another chair - i"
+- i suppose we'll need another chair - i - that is for that - what are at for a - around. she have
+================================================================================
+
+----- Generating text after Epoch: 6
+----- Diversity:0.3
+----- Generating with seed:
+"moved to a different ward this morning, could you"
+moved to a different ward this morning, could you tell what to the and to the of and they were in the of he
+================================================================================
+----- Diversity:0.4
+----- Generating with seed:
+"moved to a different ward this morning, could you"
+moved to a different ward this morning, could you hear this you to the with at and that the had to on a of
+================================================================================
+----- Diversity:0.5
+----- Generating with seed:
+"moved to a different ward this morning, could you"
+moved to a different ward this morning, could you your and the and to to - what to to and to the of that
+================================================================================
+----- Diversity:0.6
+----- Generating with seed:
+"moved to a different ward this morning, could you"
+moved to a different ward this morning, could you ask to around the will in - - - - - - - - -
+================================================================================
+----- Diversity:0.7
+----- Generating with seed:
+"moved to a different ward this morning, could you"
+moved to a different ward this morning, could you has to at and of the - - - - - - - - -
+================================================================================
+
+----- Generating text after Epoch: 7
+----- Diversity:0.3
+----- Generating with seed:
+"he was really going back . . . 
+"
+he was really going back . . . 
+ the of . i going to what it to and to the and he to
+================================================================================
+----- Diversity:0.4
+----- Generating with seed:
+"he was really going back . . . 
+"
+he was really going back . . . 
+ he at and they all about when he to the for he really like he
+================================================================================
+----- Diversity:0.5
+----- Generating with seed:
+"he was really going back . . . 
+"
+he was really going back . . . 
+ it . .' he around the and he to his and he to it to
+================================================================================
+----- Diversity:0.6
+----- Generating with seed:
+"he was really going back . . . 
+"
+he was really going back . . . 
+ he at a of for a is that the in here and more of and
+================================================================================
+----- Diversity:0.7
+----- Generating with seed:
+"he was really going back . . . 
+"
+he was really going back . . . 
+ where he right the was in the talked in umbridge's he really to it .
+================================================================================
+
+----- Generating text after Epoch: 8
+----- Diversity:0.3
+----- Generating with seed:
+"says she thinks it would be nice if you"
+says she thinks it would be nice if you here your in your that that might your your is your that of that of
+================================================================================
+----- Diversity:0.4
+----- Generating with seed:
+"says she thinks it would be nice if you"
+says she thinks it would be nice if you here your on your with umbridge. - you your your your - - - -
+================================================================================
+----- Diversity:0.5
+----- Generating with seed:
+"says she thinks it would be nice if you"
+says she thinks it would be nice if you in and to the of again, that in and of the of that he not
+================================================================================
+----- Diversity:0.6
+----- Generating with seed:
+"says she thinks it would be nice if you"
+says she thinks it would be nice if you your in your and the of that - your not - - - - -
+================================================================================
+----- Diversity:0.7
+----- Generating with seed:
+"says she thinks it would be nice if you"
+says she thinks it would be nice if you your and up six of in umbridge. the that the of parchment it?' he not
 ================================================================================

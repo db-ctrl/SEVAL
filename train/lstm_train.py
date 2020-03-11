@@ -30,13 +30,13 @@ import gspread
 scope = ['https://spreadsheets.google.com/feeds',
          'https://www.googleapis.com/auth/drive']
 
-creds = ServiceAccountCredentials.from_json_keyfile_name('seval-270420-f0725c9a2188.json', scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name("/Users/david/PycharmProjects/SEVAL/Creds/seval-270420-f0725c9a2188.json", scope)
 client = gspread.authorize(creds)
 
 sheet = client.open("AutoSentenceEval").sheet1
 
 # LSTM RNN Params: change to experiment different configurations
-SEQUENCE_LEN = 10
+SEQUENCE_LEN = 20
 MIN_WORD_FREQUENCY = 10
 STEP = 1
 BATCH_SIZE = 32
@@ -123,11 +123,8 @@ def on_epoch_end(epoch, logs):
         examples_file.write('----- Generating with seed:\n"' + ' '.join(sentence) + '"\n')
         examples_file.write(' '.join(sentence))
 
-        # remove newline character from seed
-        seed.pop(0)
-
         # Write sentence prediction
-        for i in range(15):
+        for i in range(25):
             x_pred = np.zeros((1, SEQUENCE_LEN, len(words)))
             for t, word in enumerate(sentence):
                 x_pred[0, t, word_indices[word]] = 1.
@@ -142,12 +139,11 @@ def on_epoch_end(epoch, logs):
             examples_file.write(" "+next_word)
         examples_file.write('\n')
 
-
         # update sentence value in sheet
-        sheet.insert_row(["WbasedModel2", ' '.join(map(str, seed)) + " " + ' '.join(map(str, sentence))], row)
+        sheet.insert_row(["WbasedModel2", ' '.join(map(str, sentence.replace('\n', ' ')))], row)
         row += 1
 
-    examples_file.write('='*80 + '\n')
+        examples_file.write('='*80 + '\n')
     examples_file.flush()
 
 
