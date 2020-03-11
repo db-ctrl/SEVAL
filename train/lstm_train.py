@@ -36,10 +36,10 @@ client = gspread.authorize(creds)
 sheet = client.open("AutoSentenceEval").sheet1
 
 # LSTM RNN Params: change to experiment different configurations
-SEQUENCE_LEN = 20
-MIN_WORD_FREQUENCY = 10
-STEP = 1
-BATCH_SIZE = 32
+SEQUENCE_LEN = 15
+MIN_WORD_FREQUENCY = 5
+STEP = 5
+BATCH_SIZE = 50
 
 
 def shuffle_and_split_training_set(sentences_original, next_original, percentage_test=2):
@@ -140,7 +140,10 @@ def on_epoch_end(epoch, logs):
         examples_file.write('\n')
 
         # update sentence value in sheet
-        sheet.insert_row(["WbasedModel2", ' '.join(map(str, sentence.replace('\n', ' ')))], row)
+        clean_sent = []
+        for item in sentence:
+            clean_sent.append(item.strip())
+        sheet.insert_row(["WbasedModel2", ' '.join(map(str, clean_sent))], row)
         row += 1
 
         examples_file.write('='*80 + '\n')
@@ -225,7 +228,7 @@ if __name__ == "__main__":
     examples_file = open(examples, "w")
     model.fit_generator(generator(sentences, next_words, BATCH_SIZE),
                         steps_per_epoch=int(len(sentences)/BATCH_SIZE) + 1,
-                        epochs=100,
+                        epochs=3,
                         callbacks=callbacks_list,
                         validation_data=generator(sentences_test, next_words_test, BATCH_SIZE),
                         validation_steps=int(len(sentences_test)/BATCH_SIZE) + 1)

@@ -4,6 +4,7 @@ import textstat
 import time
 from oauth2client.service_account import ServiceAccountCredentials
 import gspread
+import re
 
 # use creds to create a client to interact with the Google Drive API
 scope = ['https://spreadsheets.google.com/feeds',
@@ -14,11 +15,15 @@ client = gspread.authorize(creds)
 # Find a workbook by name and open the first sheet
 sheet = client.open("AutoSentenceEval").sheet1
 
-# TODO : Make function for each column of SEVAL
-
 # Calculate & generate sentence word count
 row = 2
-sheet.insert_row(["WbasedModel2", " "], row)
+
+sentence = ["sssssssa", "b\n", "c\n"]
+clean_sent = []
+for item in sentence:
+    clean_sent.append(item.strip())
+
+sheet.insert_row(["WbasedModel2", ' '.join(map(str, clean_sent))], row)
 
 #Calculate sentence Flesch Reading Ease
 
