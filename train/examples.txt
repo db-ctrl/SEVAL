@@ -1,0 +1,25 @@
+
+----- Generating text after Epoch: 0
+----- Diversity:0.3
+----- Generating with seed:
+"said professor mcgonagall, turning at last to look umbridge directly"
+said professor mcgonagall, turning at last to look umbridge directly to was had was of the end the end the end the door the end
+----- Diversity:0.4
+----- Generating with seed:
+"professor mcgonagall, turning at last to look umbridge directly"
+professor mcgonagall, turning at last to look umbridge directly him the the wand the of the face the of the wand to the wand
+----- Diversity:0.5
+----- Generating with seed:
+"mcgonagall, turning at last to look umbridge directly"
+mcgonagall, turning at last to look umbridge directly in of the of the the the they the was the the in the and
+----- Diversity:0.6
+----- Generating with seed:
+"turning at last to look umbridge directly"
+turning at last to look umbridge directly he it it an 
+ that . 
+ was no to to it he the
+----- Diversity:0.7
+----- Generating with seed:
+"at last to look umbridge directly"
+at last to look umbridge directly she's was a to - the spell to the a her. his and turn any
+================================================================================
