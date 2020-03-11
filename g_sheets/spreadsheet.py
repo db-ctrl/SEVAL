@@ -8,7 +8,8 @@ import gspread
 # use creds to create a client to interact with the Google Drive API
 scope = ['https://spreadsheets.google.com/feeds',
          'https://www.googleapis.com/auth/drive']
-creds = ServiceAccountCredentials.from_json_keyfile_name('seval-270420-f0725c9a2188.json', scope)
+
+creds = ServiceAccountCredentials.from_json_keyfile_name("/Users/david/PycharmProjects/SEVAL/Creds/seval-270420-f0725c9a2188.json", scope)
 client = gspread.authorize(creds)
 
 # Find a workbook by name and open the first sheet
