@@ -18,18 +18,24 @@ sheet = client.open("AutoSentenceEval").sheet1
 documents = seval_funcs.text_2_list(CORPUS_PATH)
 
 # initialise g_sheet row
-row = 90
+row = 2
 
 #for i in range(len(sheet.col_values(1))):
-for i in range(3):
+for i in range(len(sheet.col_values(1))):
+
+    #TODO: rereun wordsinclus + entropy TOGETHER.
+    #TODO: investigate 0 value in entropy calculation
+
     # Get values from g_sheet
     word_count = gs_funcs.get_word_count(row)
     sentence = gs_funcs.get_sentences(row)
 
     # update values in g_sheet
-    words_in_clus = seval_funcs.cluster_texts(documents, sentence, word_count, 250)[0]
+
+    # words_in_clus = seval_funcs.cluster_texts(documents, sentence, word_count, 250)[0]
     entropy = seval_funcs.cluster_texts(documents, sentence, word_count, 250)[1]
-    gs_funcs.update_metrics(row, words_in_clus, entropy)
+    # gs_funcs.update_metrics(row, words_in_clus, entropy)
+    gs_funcs.update_entropy(row, entropy)
 
     row += 1
 

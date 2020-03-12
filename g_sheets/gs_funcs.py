@@ -52,3 +52,15 @@ def get_word_count(row):
 def get_sentences(row):
     sentences = sheet.cell(row, 2).value
     return sentences
+
+
+def update_entropy(row, entropy):
+
+    if len(sheet.cell(row, 2).value.split()) == 0:
+        pass
+    else:
+        # Update entropy
+        if math.isnan(entropy):
+            sheet.update_cell(row, 10, "N/A"),
+        else:
+            sheet.update_cell(row, 10, entropy),
