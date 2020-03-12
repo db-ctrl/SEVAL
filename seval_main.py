@@ -18,10 +18,10 @@ sheet = client.open("AutoSentenceEval").sheet1
 documents = seval_funcs.text_2_list(CORPUS_PATH)
 
 # initialise g_sheet row
-row = 8
+row = 90
 
 #for i in range(len(sheet.col_values(1))):
-for i in range(70):
+for i in range(3):
     # Get values from g_sheet
     word_count = gs_funcs.get_word_count(row)
     sentence = gs_funcs.get_sentences(row)

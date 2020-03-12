@@ -54,6 +54,8 @@ def cluster_texts(documents, sentence, word_count, true_k,):
         if terms[ind] in word_list:
             words_in_clus.append(str(terms[ind]) + " " + "[" + "%d" % i + "] ")
 
+# Todo: update entropy metrics to include entire corpus - refer to IMG in 1Note
+
     ent = entropy([len(words_in_clus) / word_count], base=2)
 
     # sorted_hits = [item for items, c in Counter(hit_list).most_common() for item in [items] * c]
