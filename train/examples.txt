@@ -2,108 +2,45 @@
 ----- Generating text after Epoch: 0
 ----- Diversity:0.3
 ----- Generating with seed:
-"and hermione again - 
- and their faces"
-and hermione again - 
- and their faces the door of the other room of the order of the bit of the first same the forest. of the head to was and the
-================================================================================
------ Diversity:0.4
------ Generating with seed:
-"and hermione again - 
- and their faces"
-and hermione again - 
- and their faces the eaters were was the dark first same and the ministry of the dark room to had have the first first same in the door
-================================================================================
------ Diversity:0.5
------ Generating with seed:
-"and hermione again - 
- and their faces"
-and hermione again - 
- and their faces in the door of the room to was the door. of the hand, was he not was be it had had were again. to was
-================================================================================
------ Diversity:0.6
------ Generating with seed:
-"and hermione again - 
- and their faces"
-and hermione again - 
- and their faces me we give to be quite have what to have more be thanks,' while that her sure they been in the rest of the doors
-================================================================================
------ Diversity:0.7
------ Generating with seed:
-"and hermione again - 
- and their faces"
-and hermione again - 
- and their faces not you at a word, a house of the dark wall clutching was to conversation his moment 
+"could order anything"
+could order anything to a a the of . of the the the he 
  
- touch the short in the floor
-================================================================================
-
------ Generating text after Epoch: 1
------ Diversity:0.3
------ Generating with seed:
-"how terrified he had felt when he had"
-how terrified he had felt when he had been the way of the dark arts to the first dark arts - ' 
- 'i think you think you to think you to get
+ the the the 
+ the and and he of of he and a . 
+ 
+ was
 ================================================================================
 ----- Diversity:0.4
 ----- Generating with seed:
-"how terrified he had felt when he had"
-how terrified he had felt when he had been very in the end of the dark arts to a bit of the dark arts - ' 
- 'well, they want to the ministry
+"could order anything"
+could order anything he to a in the a was 
+ not the and the 
+ 
+ 
+ the of 
+ at . did the of 
+ all and harry. to 
+ and
 ================================================================================
 ----- Diversity:0.5
 ----- Generating with seed:
-"how terrified he had felt when he had"
-how terrified he had felt when he had been been so what he was made at the time of the far other sense to the dark arts to been him and a bit
+"could order anything"
+could order anything the the the and - 
+ the 
+ sirius to to 
+ him and 
+ to of sirius the to 
+ had the seemed his of the was in a
 ================================================================================
 ----- Diversity:0.6
 ----- Generating with seed:
-"how terrified he had felt when he had"
-how terrified he had felt when he had not been my own way of the dark head, the time, it was your idea,' to it was for for the only face he was
+"could order anything"
+could order anything to that 'you . a when back 'you of it him say dark had had harry,' he i just was had he a . for . think in over he
 ================================================================================
 ----- Diversity:0.7
 ----- Generating with seed:
-"how terrified he had felt when he had"
-how terrified he had felt when he had been one to see for the very deep, the same heard many once hagrid fred and there had were very told at the other time
-================================================================================
-
------ Generating text after Epoch: 2
------ Diversity:0.3
------ Generating with seed:
-"i?' she shot at hermione. 
- 'yes, i"
-i?' she shot at hermione. 
- 'yes, i think you said hermione, a little more in a - ' 
- 'i think you got to tell him - ' 
- 'we got to
-================================================================================
------ Diversity:0.4
------ Generating with seed:
-"i?' she shot at hermione. 
- 'yes, i"
-i?' she shot at hermione. 
- 'yes, i know you think i'm saw a . . . i don't think i think you think you to be a bit of the first time
-================================================================================
------ Diversity:0.5
------ Generating with seed:
-"i?' she shot at hermione. 
- 'yes, i"
-i?' she shot at hermione. 
- 'yes, i think i think you think i think it was quite or in the ministry of them was not to see the right of the time
-================================================================================
------ Diversity:0.6
------ Generating with seed:
-"i?' she shot at hermione. 
- 'yes, i"
-i?' she shot at hermione. 
- 'yes, i think you knew said a little in the dark other - ' 
- 'yes,' said harry, there at her wand and a back of his
-================================================================================
------ Diversity:0.7
------ Generating with seed:
-"i?' she shot at hermione. 
- 'yes, i"
-i?' she shot at hermione. 
- 'yes, i right,' said harry, looking a voice more with her - ' 
- 'yes,' said harry, looking in the right and put to him this a
+"could order anything"
+could order anything rather imitation him 
+ a well,' few and felt the .' her had was laughed. to you robes, him a had a funny 
+ the around - . umbridge. he
 ================================================================================

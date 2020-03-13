@@ -118,6 +118,8 @@ def on_epoch_end(epoch, logs):
     seed = (sentences+sentences_test)[seed_index]
 
     for diversity in [0.3, 0.4, 0.5, 0.6, 0.7]:
+
+        # TODO: Make seed only be 3 words, but send full sentence to sheet
         sentence = seed
         examples_file.write('----- Diversity:' + str(diversity) + '\n')
         examples_file.write('----- Generating with seed:\n"' + ' '.join(sentence) + '"\n')
