@@ -37,8 +37,8 @@ sheet = client.open("AutoSentenceEval").sheet1
 
 # LSTM RNN Params: change to experiment different configurations
 SEQUENCE_LEN = 15
-MIN_WORD_FREQUENCY = 5
-STEP = 5
+MIN_WORD_FREQUENCY = 10
+STEP = 1
 BATCH_SIZE = 50
 
 
@@ -145,7 +145,7 @@ def on_epoch_end(epoch, logs):
         clean_sent = []
         for item in sentence:
             clean_sent.append(item.strip())
-        sheet.insert_row(["WbasedModel2", ' '.join(map(str, clean_sent))], row)
+        sheet.insert_row(["WbasedModel2", ' '.join(map(str, seed)) + " " + ' '.join(map(str, clean_sent))], row)
         row += 1
 
         examples_file.write('='*80 + '\n')

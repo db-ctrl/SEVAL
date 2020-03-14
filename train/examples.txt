@@ -2,45 +2,31 @@
 ----- Generating text after Epoch: 0
 ----- Diversity:0.3
 ----- Generating with seed:
-"could order anything"
-could order anything to a a the of . of the the the he 
- 
- the the the 
- the and and he of of he and a . 
- 
- was
+"what about cho"
+what about cho . the the the . the the the his the . 
+ the to the . the the the the to to to . .
 ================================================================================
 ----- Diversity:0.4
 ----- Generating with seed:
-"could order anything"
-could order anything he to a in the a was 
- not the and the 
- 
- 
- the of 
- at . did the of 
- all and harry. to 
- and
+"what about cho"
+what about cho with the . to . . a to and to to the at a was the to to the the of at . the the
 ================================================================================
 ----- Diversity:0.5
 ----- Generating with seed:
-"could order anything"
-could order anything the the the and - 
- the 
- sirius to to 
- him and 
- to of sirius the to 
- had the seemed his of the was in a
+"what about cho"
+what about cho . . the . . the the his . the to . of - 
+ up the to - can 
+ . the and a
 ================================================================================
 ----- Diversity:0.6
 ----- Generating with seed:
-"could order anything"
-could order anything to that 'you . a when back 'you of it him say dark had had harry,' he i just was had he a . for . think in over he
+"what about cho"
+what about cho . to the to the mrs off the a get the the it?' to at of in a her a 
+ a . 
+ they
 ================================================================================
 ----- Diversity:0.7
 ----- Generating with seed:
-"could order anything"
-could order anything rather imitation him 
- a well,' few and felt the .' her had was laughed. to you robes, him a had a funny 
- the around - . umbridge. he
+"what about cho"
+what about cho the in and of back. the voldemort's just harry . and . as dumbledore be kreacher that to first to . enough the the .
 ================================================================================
