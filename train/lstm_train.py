@@ -109,7 +109,7 @@ def sample(preds, temperature=1.0):
 
 def on_epoch_end(epoch, logs):
     # initialise gspread row
-    row = 12
+    row = 73
     # Function invoked at end of each epoch. Prints generated text.
     examples_file.write('\n----- Generating text after Epoch: %d\n' % epoch)
 
@@ -119,7 +119,6 @@ def on_epoch_end(epoch, logs):
 
     for diversity in [0.3, 0.4, 0.5, 0.6, 0.7]:
 
-        # TODO: Make seed only be 3 words, but send full sentence to sheet
         sentence = seed
         examples_file.write('----- Diversity:' + str(diversity) + '\n')
         examples_file.write('----- Generating with seed:\n"' + ' '.join(sentence) + '"\n')
@@ -231,7 +230,7 @@ if __name__ == "__main__":
     examples_file = open(examples, "w")
     model.fit_generator(generator(sentences, next_words, BATCH_SIZE),
                         steps_per_epoch=int(len(sentences)/BATCH_SIZE) + 1,
-                        epochs=3,
+                        epochs=10,
                         callbacks=callbacks_list,
                         validation_data=generator(sentences_test, next_words_test, BATCH_SIZE),
                         validation_steps=int(len(sentences_test)/BATCH_SIZE) + 1)
