@@ -16,7 +16,7 @@ client = gspread.authorize(creds)
 # Find a workbook by name and open the first sheet
 sheet = client.open("AutoSentenceEval").sheet1
 
-# TODO : Make function for each column of SEVAL
+# TODO : make fix for empty cells if line breaker (ent)
 
 
 def update_metrics(row, words_in_clus, entropy):

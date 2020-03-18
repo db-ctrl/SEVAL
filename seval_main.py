@@ -1,4 +1,4 @@
-from SEVAL.Clustering import seval_funcs
+from SEVAL.Clustering import seval_funcs2
 from SEVAL.g_sheets import gs_funcs
 from oauth2client.service_account import ServiceAccountCredentials
 import gspread
@@ -15,12 +15,19 @@ CORPUS_PATH = '/Users/david/PycharmProjects/LSTM-Text-Generator/MainModules/Main
 sheet = client.open("AutoSentenceEval").sheet1
 
 # convert raw text into documents
-documents = seval_funcs.text_2_list(CORPUS_PATH)
+documents = seval_funcs2.text_2_list(CORPUS_PATH)
 
 # initialise g_sheet row
 row = 2
 
-#for i in range(len(sheet.col_values(1))):
+# choose amount of clusters
+
+true_k = 250
+
+# Generate clusters
+
+terms, order_centroids = seval_funcs2.cluster_texts(documents, true_k)
+
 for i in range(len(sheet.col_values(1))):
 
     #TODO: rereun wordsinclus + entropy TOGETHER.
@@ -30,12 +37,10 @@ for i in range(len(sheet.col_values(1))):
     word_count = gs_funcs.get_word_count(row)
     sentence = gs_funcs.get_sentences(row)
 
+    # calculate cluster metrics
+    words_in_clus, entropy = seval_funcs2.count_words_in_clus(true_k, order_centroids, terms, sentence, word_count)
+
     # update values in g_sheet
-
-    # words_in_clus = seval_funcs.cluster_texts(documents, sentence, word_count, 250)[0]
-    entropy = seval_funcs.cluster_texts(documents, sentence, word_count, 250)[1]
-    # gs_funcs.update_metrics(row, words_in_clus, entropy)
-    gs_funcs.update_entropy(row, entropy)
-
+    gs_funcs.update_metrics(row, words_in_clus, entropy)
     row += 1
 
