@@ -120,7 +120,7 @@ def on_epoch_end(epoch, logs):
 if __name__ == "__main__":
     # Argument check
     if len(sys.argv) != 3:
-        print('\033[91m' + 'Argument Error!\nUsage: python3 lstm_train.py '
+        print('\033[91m' + 'Argument Error!\nUsage: python3 lstm_trainTEST.py '
                            '<path_to_corpus> <examples_txt>' + '\033[0m')
         exit(1)
     if not os.path.isfile(sys.argv[1]):

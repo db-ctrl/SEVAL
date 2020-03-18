@@ -1,9 +1,9 @@
 """
-Script to generate text from an already trained network (with lstm_train.py)
+Script to generate text from an already trained network (with lstm_trainTEST.py)
 --By word--
 
 It is necessary to at least provide the trained model and the vocabulary file
-(generated also by lstm_train.py).
+(generated also by lstm_trainTEST.py).
 """
 
 

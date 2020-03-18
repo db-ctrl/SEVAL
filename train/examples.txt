@@ -2,31 +2,119 @@
 ----- Generating text after Epoch: 0
 ----- Diversity:0.3
 ----- Generating with seed:
-"what about cho"
-what about cho . the the the . the the the his the . 
- the to the . the the the the to to to . .
+"his seat at the table again, that sirius spoke. 
+ 'ok, harry . . ."
+his seat at the table again, that sirius spoke. 
+ 'ok, harry . . . to they the 
+ was 
+ the 
+ 
+ a a to 
+ the and harry the had 
+ the the the 
+ the the
 ================================================================================
 ----- Diversity:0.4
 ----- Generating with seed:
-"what about cho"
-what about cho with the . to . . a to and to to the at a was the to to the the of at . the the
+"his seat at the table again, that sirius spoke. 
+ 'ok, harry . . ."
+his seat at the table again, that sirius spoke. 
+ 'ok, harry . . . a and 
+ the . . 
+ harry 
+ . . . . . . . . . . . . . . . .
 ================================================================================
 ----- Diversity:0.5
 ----- Generating with seed:
-"what about cho"
-what about cho . . the . . the the his . the to . of - 
- up the to - can 
- . the and a
+"his seat at the table again, that sirius spoke. 
+ 'ok, harry . . ."
+his seat at the table again, that sirius spoke. 
+ 'ok, harry . . . 
+ . . 
+ he . . . . . . . . the 
+ . - . . . . . . . .
 ================================================================================
 ----- Diversity:0.6
 ----- Generating with seed:
-"what about cho"
-what about cho . to the to the mrs off the a get the the it?' to at of in a her a 
- a . 
- they
+"his seat at the table again, that sirius spoke. 
+ 'ok, harry . . ."
+his seat at the table again, that sirius spoke. 
+ 'ok, harry . . . . the . . . . not . go . . . . . . . . . . . . . . . .
 ================================================================================
 ----- Diversity:0.7
 ----- Generating with seed:
-"what about cho"
-what about cho the in and of back. the voldemort's just harry . and . as dumbledore be kreacher that to first to . enough the the .
+"his seat at the table again, that sirius spoke. 
+ 'ok, harry . . ."
+his seat at the table again, that sirius spoke. 
+ 'ok, harry . . . was was once in never i said . to as to he 
+ .' 
+ hermione, his for that said still into sure were she
+================================================================================
+
+----- Generating text after Epoch: 1
+----- Diversity:0.3
+----- Generating with seed:
+"say to him. they sat side by side in silence for a moment. then hagrid"
+say to him. they sat side by side in silence for a moment. then hagrid the the of the of the he of the the the the the of the the the the the of of the the the the
+================================================================================
+----- Diversity:0.4
+----- Generating with seed:
+"say to him. they sat side by side in silence for a moment. then hagrid"
+say to him. they sat side by side in silence for a moment. then hagrid in the the of they of as the the the the the the the the the the the the the in the the the the
+================================================================================
+----- Diversity:0.5
+----- Generating with seed:
+"say to him. they sat side by side in silence for a moment. then hagrid"
+say to him. they sat side by side in silence for a moment. then hagrid . the to the his the the the the and the the the 
+ and the of as to the the the ron the down
+================================================================================
+----- Diversity:0.6
+----- Generating with seed:
+"say to him. they sat side by side in silence for a moment. then hagrid"
+say to him. they sat side by side in silence for a moment. then hagrid who . his of 
+ had a that his she and the not of and in the them, and a at the harry faces were
+================================================================================
+----- Diversity:0.7
+----- Generating with seed:
+"say to him. they sat side by side in silence for a moment. then hagrid"
+say to him. they sat side by side in silence for a moment. then hagrid in the of no in and of of the of their a eaters 
+ he with looked the her happened with they the to 
+
+================================================================================
+
+----- Generating text after Epoch: 2
+----- Diversity:0.3
+----- Generating with seed:
+"ever mentioned anything about it?' 
+ 'i know they call the people who work in"
+ever mentioned anything about it?' 
+ 'i know they call the people who work in the of the of of the the the and the and the of the and of the between the and the the his the of
+================================================================================
+----- Diversity:0.4
+----- Generating with seed:
+"ever mentioned anything about it?' 
+ 'i know they call the people who work in"
+ever mentioned anything about it?' 
+ 'i know they call the people who work in of the the of of the of the the of and the of the and and the and of the the of his of the
+================================================================================
+----- Diversity:0.5
+----- Generating with seed:
+"ever mentioned anything about it?' 
+ 'i know they call the people who work in"
+ever mentioned anything about it?' 
+ 'i know they call the people who work in his a the and they it the he the for of the his pitch the the his the as the and and his as the
+================================================================================
+----- Diversity:0.6
+----- Generating with seed:
+"ever mentioned anything about it?' 
+ 'i know they call the people who work in"
+ever mentioned anything about it?' 
+ 'i know they call the people who work in happened the way at that and the and the the but of the the hall. but then and the his the scratching his scratching the
+================================================================================
+----- Diversity:0.7
+----- Generating with seed:
+"ever mentioned anything about it?' 
+ 'i know they call the people who work in"
+ever mentioned anything about it?' 
+ 'i know they call the people who work in the the descended and that help the feet between from the his happened and by mcgonagall's his shaking on and had the of down in
 ================================================================================

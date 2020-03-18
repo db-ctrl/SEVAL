@@ -115,7 +115,8 @@ def on_epoch_end(epoch, logs):
 
     # Randomly pick a seed sequence
     seed_index = np.random.randint(len(sentences+sentences_test))
-    seed = (sentences+sentences_test)[seed_index]
+    full_sent = (sentences + sentences_test)[seed_index]
+    seed = full_sent[:3]
 
     for diversity in [0.3, 0.4, 0.5, 0.6, 0.7]:
 
@@ -125,8 +126,8 @@ def on_epoch_end(epoch, logs):
         examples_file.write('----- Generating with seed:\n"' + ' '.join(sentence) + '"\n')
         examples_file.write(' '.join(sentence))
 
-        # Write sentence prediction, maximum 18 words
-        for i in range(18):
+        # Write sentence prediction
+        for i in range(25):
             x_pred = np.zeros((1, SEQUENCE_LEN, len(words)))
             for t, word in enumerate(sentence):
                 x_pred[0, t, word_indices[word]] = 1.
@@ -145,8 +146,7 @@ def on_epoch_end(epoch, logs):
         clean_sent = []
         for item in sentence:
             clean_sent.append(item.strip())
-        sheet.insert_row(["WbasedModel2", ' '.join(map(str, clean_sent))], row)
-        # ' '.join(map(str, seed)) + " " +
+        sheet.insert_row(["WbasedModel2", ' '.join(map(str, seed)) + " " + ' '.join(map(str, clean_sent))], row)
         row += 1
 
         examples_file.write('='*80 + '\n')
@@ -154,23 +154,15 @@ def on_epoch_end(epoch, logs):
 
 
 if __name__ == "__main__":
-    # Argument check
-    if len(sys.argv) != 4:
-        print('\033[91m' + 'Argument Error!\nUsage: python3 lstm_trainTEST.py '
-                           '<path_to_corpus> <examples_txt> <vocabulary_txt>' + '\033[0m')
-        exit(1)
-    if not os.path.isfile(sys.argv[1]):
-        print('\033[91mERROR: ' + sys.argv[1] + ' is not a file!' + '\033[0m')
-        exit(1)
 
-    corpus = sys.argv[1]
-    examples = sys.argv[2]
-    vocabulary = sys.argv[3]
+    corpus = "corpora/Harry_Potter_and_the_Order_of_the_Phoenix.txt"
+    examples = "corpora/examples.txt"
+    vocabulary = "corpora/vocab.txt"
 
     if not os.path.isdir('./checkpoints/'):
         os.makedirs('./checkpoints/')
 
-    with io.open(corpus, encoding='utf-8') as f:
+    with open(corpus, encoding='utf-8') as f:
         text = f.read().lower().replace('\n', ' \n ')
     print('Corpus length in characters:', len(text))
 
